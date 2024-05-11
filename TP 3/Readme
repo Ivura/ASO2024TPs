@@ -1,0 +1,32 @@
+1)a)	1era vez que ejecuto el programa sinhilos.py tarda 5.18 segundos.
+	2da vez que ejecuto el programa sinhilos.py tarda 5.15 segundos.
+	3era vez que ejecuto el programa sinhilos.py tarda 5.16 segundos.
+	4ta vez que ejecuto el programa sinhilos.py tarda 5.23 segundos (cerrando navegador).
+	5ta vez que ejecuto el programa sinhilos.py tarda 5.15 segundos (navegador cerrado).
+	6ta vez que ejecuto el programa sinhilos.py tarda 5.15 segundos.
+	7ma vez que ejecuto el programa sinhilos.py tarda 5.15 segundos.
+	8va vez que ejecuto el programa sinhilos.py tarda 5.15 segundos.
+	9na vez que ejecuto el programa sinhilos.py tarda 5.15 segundos.
+	decima vez que ejecuto el programa sinhilos.py tarda 5.15 segundos.
+
+Luego de varias veces ejecutado el código el tiempo de ejecución se vuelve constante.
+
+
+
+	1era vez que ejecuto el programa conhilos.py tarda 4.06 segundos.
+	2da vez que ejecuto el programa conhilos.py tarda 4.07 segundos.
+	3era vez que ejecuto el programa conhilos.py tarda 4.08 segundos.
+	4ta vez que ejecuto el programa conhilos.py tarda 4.04 segundos.
+	5ta vez que ejecuto el programa conhilos.py tarda 4.07 segundos.
+	6ta vez que ejecuto el programa conhilos.py tarda 4.05 segundos.
+	7ma vez que ejecuto el programa conhilos.py tarda 4.07 segundos.
+	8va vez que ejecuto el programa conhilos.py tarda 4.09 segundos.
+	9na vez que ejecuto el programa conhilos.py tarda 4.04 segundos.
+	decima vez que ejecuto el programa conhilos.py tarda 4.06 segundos.
+
+Luego de ejecutar varias veces el código el tiempo es casi el mismo, pero no se vuelve constante. 
+
+b) Comparando con un compañero el código sinhilos.py tarda menos en ejecutarse en mi pc que en la suya y el código conhilos.py tarda mas tiempo en ejecutarse en mi pc que en la de él.
+
+c) Al ejecutar el código original el resultado siempre fue 0 y el tiempo de ejecución fue constante, pero al ejecutarlo con las líneas comentadas el código tardaba mas tiempo en ejecutarse y el resultado nunca fue el mismo. 
+Esto sucede por el "Race Conditions" que al ejecutarse el código ambos procesos comparten el mismo recurso (en este caso la variable acumulador) y se superponen dando salida a un resultado que no es el esperado.
