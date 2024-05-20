@@ -30,3 +30,6 @@ b) Comparando con un compañero el código sinhilos.py tarda menos en ejecutarse
 
 c) Al ejecutar el código original el resultado siempre fue 0 y el tiempo de ejecución fue constante, pero al ejecutarlo con las líneas comentadas el código tardaba mas tiempo en ejecutarse y el resultado nunca fue el mismo. 
 Esto sucede por el "Race Conditions" que al ejecutarse el código ambos procesos comparten el mismo recurso (en este caso la variable acumulador) y se superponen dando salida a un resultado que no es el esperado.
+
+
+2) B) En el programa veremos qué cada comensal como de a una hamburguesa a la vez, turnándose y de manera equitativa entre ambos.
